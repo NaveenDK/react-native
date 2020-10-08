@@ -19,11 +19,15 @@ const ListScreen = () => {
      keyExtractor = {friend=>friend.name}
      data= {friends} renderItem={({item})=>{
         //element ==={item:{name:'Friend 1'}, index:0} therefore we use destructure to get item out
-          return <Text>{item.name} - {item.age}</Text>
+          return <Text style={styles.textStyle}>{item.name} - {item.age}</Text>
 
     }}
     />
     );
 }
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    textStyle:{
+        marginVertical:10
+    }
+})
 export default ListScreen

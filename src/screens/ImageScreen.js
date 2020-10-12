@@ -10,4 +10,4 @@ const ImageScreen = ()=>{
     </View>)
 }
 
-export default ImageScreen;
+export default ImageScreen; 

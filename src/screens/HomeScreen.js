@@ -35,7 +35,7 @@ const HomeScreen = ({navigation}) => {
      onPress={()=>{
         navigation.navigate('Color')
      }}
-     title="Go to Counter Demo"
+     title="Go to Color Demo"
      />
   </View>
   )
